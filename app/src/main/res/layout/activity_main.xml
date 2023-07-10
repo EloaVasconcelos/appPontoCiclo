@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="#000000"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/L1"
+        android:layout_width="416dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="750dp"
+        android:background="#5CEC62"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds"></LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/L2"
+        android:layout_width="412dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="700dp"
+        android:background="#5CEC62"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/L1"
+        tools:ignore="VisualLintBounds"></LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnentrar"
+        android:layout_width="183dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="578dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="90dp"
+        android:backgroundTint="#5CEC62"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/bntentrar"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#1F7822"
+        android:textColorLink="#ffffff"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="328dp"
+        android:layout_height="338dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="150dp"
+        android:contentDescription="@string/imglogo"
+        app:layout_constraintBottom_toTopOf="@+id/btnentrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

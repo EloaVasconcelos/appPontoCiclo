@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnsus" type="id" />
+    <item name="btnreci" type="id" />
+    <item name="btnpontos" type="id" />
+</resources>
