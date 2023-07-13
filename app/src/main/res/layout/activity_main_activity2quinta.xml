@@ -2,8 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela5"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#090101"
+    android:backgroundTint="#000000"
     tools:context=".MainActivity2quinta">
 
 
@@ -23,50 +26,7 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="507dp"
-        android:layout_height="33dp"
-        android:background="#5CEC62"
-        android:orientation="vertical"
-        tools:ignore="DuplicateIds,MissingConstraints,VisualLintBounds"
-        tools:layout_editor_absoluteX="-4dp"
-        tools:layout_editor_absoluteY="838dp">
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="505dp"
-        android:layout_height="34dp"
-        android:layout_marginBottom="792dp"
-        android:background="#5CEC62"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="DuplicateIds,MissingConstraints,VisualLintBounds">
-
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/btnreci1"
-        android:layout_width="248dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="159dp"
-        android:layout_marginTop="38dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="734dp"
-        android:backgroundTint="#00bf63"
-        android:fontFamily="sans-serif-black"
-        android:text="@string/btnreci1"
-        android:textSize="22dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardcodedText,SpUsage,TextContrastCheck,TextSizeCheck" />
 
     <Button
         android:id="@+id/btnverificar"
@@ -79,6 +39,7 @@
         android:backgroundTint="#00bf63"
         android:fontFamily="sans-serif-black"
         android:text="@string/btnverificar"
+        android:textColor="#fff"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/txtresult"
         app:layout_constraintEnd_toEndOf="parent"
@@ -99,6 +60,7 @@
         android:backgroundTint="#000000"
         android:fontFamily="sans-serif-black"
         android:text="@string/txtresult"
+        android:textColor="#E4FFFFFF"
         android:textSize="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -106,22 +68,6 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
 
-    <Button
-        android:id="@+id/btnvoltar2"
-        android:layout_width="130dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="631dp"
-        android:layout_marginEnd="141dp"
-        android:layout_marginBottom="137dp"
-        android:backgroundTint="#00bf63"
-        android:text="@string/btnvoltar2"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck" />
 
     <ImageView
         android:id="@+id/imglogo4"
@@ -143,8 +89,9 @@
     <LinearLayout
         android:layout_width="409dp"
         android:layout_height="29dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="2dp"
-        android:layout_marginBottom="702dp"
+        android:layout_marginBottom="727dp"
         android:background="#5CEC62"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -159,11 +106,12 @@
         android:layout_marginStart="87dp"
         android:layout_marginTop="214dp"
         android:layout_marginEnd="56dp"
-        android:layout_marginBottom="461dp"
+        android:layout_marginBottom="500dp"
         android:ems="10"
-        android:hint="hint"
+        android:hint="@string/txtdigite"
         android:inputType="text"
-        android:text="@string/txtdigite"
+        android:shadowColor="@color/white"
+        android:textColor="#F4F4F4"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -171,7 +119,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnreci1"
+        android:id="@+id/btnrecicla"
         android:layout_width="203dp"
         android:layout_height="49dp"
         android:layout_marginStart="206dp"
@@ -181,6 +129,7 @@
         android:backgroundTint="#00bf63"
         android:fontFamily="sans-serif-black"
         android:text="@string/btnreci1"
+        android:textColor="#fff"
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -198,6 +147,7 @@
         android:layout_marginEnd="130dp"
         android:backgroundTint="#00bf63"
         android:text="@string/btnvoltar2"
+        android:textColor="#fff"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
