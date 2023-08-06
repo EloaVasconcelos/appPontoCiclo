@@ -119,7 +119,7 @@
 ### Participantes: Eloá Vasconcelos de Macedo e Guilherme Gasperini Valente 
 ### Turma: 2ds (turma A)
 ### Disciplina: PAM (Programação de Aplicativos Mobile)
-### Atividade AValiativa do 2 Bimestre (em conjunto com a disciplina de Estudos Avançados em Ciências da Natureza e suas Tecnologias)
+### Atividade AValiativa do 3 Bimestre (em conjunto com a disciplina de Estudos Avançados em Ciências da Natureza e suas Tecnologias)
 
 ## Conceitos que serão passados no 3 Bimestre:
 >
