@@ -131,6 +131,23 @@
 >
 > Preferência de Usuário 
 
-### Mudanças no AAP inserindo novas funcionalidades: 
+## Mudanças no AAP inserindo novas funcionalidades:
+
+### Sensores 
+> A funcionalidade de Sensores será implementada na primeira tela onde o usuário precisa "Balançar" o celular para o botão de "Entrar"(seguindo para as outras telas) apare er - Isso acontecerá na Primeira Tela 
+
+### Saved-Instance 
+> Uma tela de login será implementada, onde o usuário poderá se cadastrar. Utilizando o Saved-Instance, caso o usuário deixe o app em segundo plano (antes de terminar o cadastro) e depois voltar suas informações ainda estaram lá 
+
+
+### Preferencia de Usuário 
+> Uma tela de avaliação seria colocado no final do app, onde dois ícones de gostei e não gostei vão estar posicionados, o usuário poderá "votar" avaliando o app em geral, também será apresentado um campo onde o usuário poderá deixar sua opinião, o que pode ser melhorado no app por exemplo
+
+
+### Acesso a Hardware 
+
+
+
+ 
 
 
