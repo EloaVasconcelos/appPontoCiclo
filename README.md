@@ -5,7 +5,7 @@
 ### Participantes: Eloá Vasconcelos de Macedo e Carolina de Oliveira Alves
 ### Turma: 2ds (turma A)
 ### Disciplina: PAM (Programação de Aplicativos Mobile)
-### Atividade AValiativa do 2 Bimestre (em conjunto com a disciplina de Estudos Avançados em Ciências da Natureza e suas Tecnologias)
+### Atividade Avaliativa do 2 Bimestre (em conjunto com a disciplina de Estudos Avançados em Ciências da Natureza e suas Tecnologias)
 
 
 >
@@ -134,7 +134,7 @@
 ## Mudanças no AAP inserindo novas funcionalidades:
 
 ### Sensores 
-> A funcionalidade de Sensores será implementada na primeira tela onde o usuário precisa "Balançar" o celular para o botão de "Entrar"(seguindo para as outras telas) apare er - Isso acontecerá na Primeira Tela 
+> A funcionalidade de Sensores será implementada na primeira tela onde o usuário precisa "Balançar" o celular para o botão de "Entrar" aparecer e assim podendo seguir para as outras telas) - Isso acontecerá na Primeira Tela 
 
 ### Saved-Instance 
 > Uma tela de login será implementada, onde o usuário poderá se cadastrar. Utilizando o Saved-Instance, caso o usuário deixe o app em segundo plano (antes de terminar o cadastro) e depois voltar suas informações ainda estaram lá 
