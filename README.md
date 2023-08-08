@@ -151,7 +151,8 @@
 
 # Diagrama do Aplicativo 
 
-<img width="400" heigth="300" src="src>
+<img width="400" heigth="300" src="![Diagrama](https://github.com/EloaVasconcelos/appPontoCiclo/assets/127448572/c1d363a4-c87e-4c38-becb-c5d6c0ca8eb9)
+
 
  
 
