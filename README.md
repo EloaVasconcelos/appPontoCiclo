@@ -149,6 +149,8 @@
 > Lembretes diários: usando a parte de notificação do dispositivo para exibir uma mensagem e lembrar o usuário de reciclar. (Som e vibração podem ser implementadas nas notificações)
 >
 
+# Diagrama do Aplicativo 
+
 
 
  
