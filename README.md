@@ -154,8 +154,20 @@
 ![Diagrama](https://github.com/EloaVasconcelos/appPontoCiclo/assets/127448572/c1d363a4-c87e-4c38-becb-c5d6c0ca8eb9)
 
 ## Descrição do Diagrama 
+Objeto: O objeto será onde o usuário irá digitar o nome e verificar se é reciclável ou não. OBS: Ele também pode fazer esse procedimento várias vezes.
+Usuário: será o local de login, onde o usuário irá colocar seu nome e sua senha para logar em sua conta.
+Pontos de Coleta: Exibira uma tela onde mostrara os pontos de lixo próximos a sua casa para serem coletados. 
+Avaliação: O usuário poderá fazer uma avaliação positiva ou negativa sobre nosso app. 
+Seta pontilhada: Ela está apontando para os dependentes, que são eles: Objeto e Avaliação.
+Seta: A seta mostra a associação binaria que relaciona duas classes.
+1..*: Indica que a apenas 1 objeto envolvido no relacionamento.
+1..1: Está indicando que apenas o um objeto de uma classe se relaciona com a de outra classe.
 
 
+## Classes: 
+> Objeto: A classe Objeto como possui o objeto: " nomedoObjeto" onde o usuario irá digitar o nome do objeto, e seu método será: "verificar_objeto" justamente para o sistema verificar se o objeto é reciclável ou não, o tipo de dado escolhido foi o boolean (valor booleano, verdadeiro ou falso) isso pois só 2 respostas são possíveis "Sim ou Não". 
+>
+>Essa classe tem a ligação de dependência com a classe do usuário pois depende dele para existir/ "funcionar"
  
 
 
