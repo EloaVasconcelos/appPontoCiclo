@@ -167,9 +167,9 @@
 >
 > Sua multiplicidade é de 1..*, podendo ter pelo menos uma instância da classe usuário associada a classe objeto ou muitas.
 
+
+### Usuario: 
 >
- ### Usuario: 
- >
 > Será o local de login, onde o usuário irá colocar seu nome e sua senha para logar em sua conta.
 >  
 > A classe usuário tem como objeto o nome e senha para o usuário se cadastrar, seu método é fazer login
