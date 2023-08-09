@@ -168,14 +168,16 @@
 > Sua multiplicidade é de 1..*, podendo ter pelo menos uma instância da classe usuário associada a classe objeto ou muitas.
 
 >
-
-> ### Usuario: Será o local de login, onde o usuário irá colocar seu nome e sua senha para logar em sua conta.
+ ### Usuario: 
+ >
+> Será o local de login, onde o usuário irá colocar seu nome e sua senha para logar em sua conta.
 >  
 > A classe usuário tem como objeto o nome e senha para o usuário se cadastrar, seu método é fazer login
 >
 > Essa classe está relacionada com as outras 3 classes (Objeto,  PontosdeColeta, Avaliacao), que são as 3 funcionalidades  que ele poderá executar/Interagir.
 > 
-## Pontos de Coleta
+
+## PontosdeColeta
 >
 > A classe PontosdeColeta irá registrar o Nome do Bairro e a Zona em que mora. O método dessa classe é "verificar_pontos" justamente para buscar os pontos mais próximos. 
 >
