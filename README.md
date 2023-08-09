@@ -154,8 +154,10 @@
 ![Diagrama](https://github.com/EloaVasconcelos/appPontoCiclo/assets/127448572/c1d363a4-c87e-4c38-becb-c5d6c0ca8eb9)
 
 ## Descrição do Diagrama 
-## Classes: 
-> ### Objeto: A classe Objeto possui o objeto: " nomedoObjeto" onde o usuario irá digitar o nome do objeto, e seu método será: "verificar_objeto" justamente para o sistema verificar se o objeto é reciclável ou não.
+>
+ ### Objeto:
+>
+>A classe Objeto possui o objeto: " nomedoObjeto" onde o usuario irá digitar o nome do objeto, e seu método será: "verificar_objeto" justamente para o sistema verificar se o objeto é reciclável ou não.
 >
 > Obs: O Usuário pode fazer essa procedimento várias vezes.
 >
