@@ -155,9 +155,9 @@
 
 ## Descrição do Diagrama 
 >
- ### Objeto:
+### Objeto
 >
->A classe Objeto possui o objeto: " nomedoObjeto" onde o usuario irá digitar o nome do objeto, e seu método será: "verificar_objeto" justamente para o sistema verificar se o objeto é reciclável ou não.
+> A classe Objeto possui o objeto: " nomedobjeto" onde o usuario irá digitar o nome do objeto, e seu método será: "verificar_objeto" justamente para o sistema verificar se o objeto é reciclável ou não.
 >
 > Obs: O Usuário pode fazer essa procedimento várias vezes.
 >
@@ -165,7 +165,7 @@
 >
 > Essa classe tem a ligação de dependência com a classe do usuário pois depende dele para existir/ "funcionar"
 >
-> Sua multiplicidade é de 1..*, podendo ter pelo menos uma instância da classe usuário associada a classe objeto  ou muitas.
+> Sua multiplicidade é de 1..*, podendo ter pelo menos uma instância da classe usuário associada a classe objeto ou muitas.
 
 >
 
@@ -174,29 +174,27 @@
 > A classe usuário tem como objeto o nome e senha para o usuário se cadastrar, seu método é fazer login
 >
 > Essa classe está relacionada com as outras 3 classes (Objeto,  PontosdeColeta, Avaliacao), que são as 3 funcionalidades  que ele poderá executar/Interagir.
-
-
-
-
-
-
-
-
-
-
-
-Pontos de Coleta: Exibira uma tela onde mostrara os pontos de lixo próximos a sua casa para serem coletados. 
-Avaliação: O usuário poderá fazer uma avaliação positiva ou negativa sobre nosso app. 
-Seta pontilhada: Ela está apontando para os dependentes, que são eles: Objeto e Avaliação.
-Seta: A seta mostra a associação binaria que relaciona duas classes.
-1..*: Indica que a apenas 1 objeto envolvido no relacionamento.
-1..1: Está indicando que apenas o um objeto de uma classe se relaciona com a de outra classe.
-
-
-## Classes: 
-> Objeto: A classe Objeto como possui o objeto: " nomedoObjeto" onde o usuario irá digitar o nome do objeto, e seu método será: "verificar_objeto" justamente para o sistema verificar se o objeto é reciclável ou não, o tipo de dado escolhido foi o boolean (valor booleano, verdadeiro ou falso) isso pois só 2 respostas são possíveis "Sim ou Não". 
+> 
+## Pontos de Coleta
 >
->Essa classe tem a ligação de dependência com a classe do usuário pois depende dele para existir/ "funcionar"
+> A classe PontosdeColeta irá registrar o Nome do Bairro e a Zona em que mora. O método dessa classe é "verificar_pontos" justamente para buscar os pontos mais próximos. 
+>
+> Essa classe está ligada com a classe usuário com uma associação binaria (padrão) onde o Usuario pode consultar os pontos de coleta próximo dele.
+>
+> A multiplicade dessa classe é 1..1, pois somente 1  instância da classe usuario pode estar relacionada a 1 instância da classe PontosdeColeta
+>
+### Avaliacao 
+>
+> A classe Avaliacao está ligada a classe do usuario e depende dele (ligados pela seta se depencia)
+>
+> Essa classe existe para que o usuário deixe sua opinião sobre o app
+>
+> Sua multiplicidade é de 1..1, somente uma instância da classs usuário pode estar relacionado a 1 instância da classe Avaliacao
+
+
+
+
+
  
 
 
