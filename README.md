@@ -187,7 +187,7 @@
 >
 ### Avaliacao 
 >
-> A classe Avaliacao está ligada a classe do usuario e depende dele (ligados pela seta se dependêcia)
+> A classe Avaliacao está ligada a classe do usuario e depende dele (ligados pela seta se dependência)
 >
 > Essa classe existe para que o usuário deixe sua opinião sobre o app
 >
