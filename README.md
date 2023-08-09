@@ -159,9 +159,9 @@
 >
 > A classe Objeto possui o objeto: " nomedobjeto" onde o usuario irá digitar o nome do objeto, e seu método será: "verificar_objeto" justamente para o sistema verificar se o objeto é reciclável ou não.
 >
-> Obs: O Usuário pode fazer essa procedimento várias vezes.
+> Obs: O Usuário pode fazer esse procedimento várias vezes.
 >
-> O tipo de dado escolhido foi o boolean (valor booleano, verdadeiro ou falso) isso pois só 2 respostas são possíveis "Sim ou Não"
+> O tipo de dado escolhido para o método foi o boolean (valor booleano, verdadeiro ou falso) isso pois só 2 respostas são possíveis "Sim ou Não"
 >
 > Essa classe tem a ligação de dependência com a classe do usuário pois depende dele para existir/ "funcionar"
 >
@@ -179,7 +179,7 @@
 
 ## PontosdeColeta
 >
-> A classe PontosdeColeta irá registrar o Nome do Bairro e a Zona em que mora. O método dessa classe é "verificar_pontos" justamente para buscar os pontos mais próximos. 
+> A classe PontosdeColeta irá registrar o Nome do Bairro e a Zona em que o usuário mora. O método dessa classe é "verificar_pontos" justamente para buscar os pontos mais próximos. 
 >
 > Essa classe está ligada com a classe usuário com uma associação binaria (padrão) onde o Usuario pode consultar os pontos de coleta próximo dele.
 >
@@ -191,7 +191,7 @@
 >
 > Essa classe existe para que o usuário deixe sua opinião sobre o app
 >
-> Sua multiplicidade é de 1..1, somente uma instância da classs usuário pode estar relacionado a 1 instância da classe Avaliacao
+> Sua multiplicidade é de 1..1, somente uma instância da classe Usuario pode estar relacionado a 1 instância da classe Avaliacao
 
 
 
